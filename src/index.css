@@ -16,6 +16,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+p {
+   margin: 0;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
 @font-face {
   font-family: "Helvetica Neue";
   src: url("./assets/fonts/HelveticaNeueLt.ttf");
