@@ -2,13 +2,13 @@ import styled from "styled-components";
 
 export const ButtonContainer = styled("div")`
   button {
-    width: 269px;
+    width: ${({ width }) => width};
     height: 53px;
     background: none;
     border-radius: 26.5px;
-    border: 1px solid white;
+    border: 1px solid ${({ color }) => color};
     outline: none;
-    color: white;
+    color: ${({ color }) => color};
     cursor: pointer;
     font-size: 13px;
     font-stretch: normal;
@@ -18,20 +18,20 @@ export const ButtonContainer = styled("div")`
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: ${({ space }) => space};
     flex-wrap: wrap;
 
     .arrow-button {
         width: 23px;
         height: 1px;
-        background-color: white;
+        background-color: ${({ color }) => color};
         margin-left: 6px;
         &::after {
             content: "";
             position: absolute;
             width: 5px;
             height: 1px;
-            background-color: white;
+            background-color: ${({ color }) => color};
             transform: rotate(45deg) translate(5px, -7px);
         }
         &::before {
@@ -39,7 +39,7 @@ export const ButtonContainer = styled("div")`
             position: absolute;
             width: 5px;
             height: 1px;
-            background-color: white;
+            background-color: ${({ color }) => color};
             transform: rotate(-45deg) translate(5px, 7px);
         }
     }
