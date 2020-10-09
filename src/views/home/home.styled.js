@@ -268,12 +268,12 @@ export const SectionTwoContainer = styled("section")`
     }
 
     .column-button {
-      width: 234px;
+      width: 200px;
       height: 60px;
       display: flex;
       margin-top: 27px;
       position: relative;
-      left: 100px;
+      left: 80px;
     }
   }
 `;
