@@ -1,9 +1,10 @@
-import React from "react";
-import LogoHome from "../../assets/img/logo.png";
+import React from 'react';
+import LogoHome from '../../assets/img/logo.png';
 
-import Button from "../../components/button/button";
+import Carousel from '../../components/carousel/carousel';
+import Button from '../../common/button/button';
 
-import { SectionOneContainer, SectionTwoContainer } from "./home.styled";
+import { SectionOneContainer, SectionTwoContainer, SectionThreeContainer } from './home.styled';
 const Home = () => {
   return (
     <>
@@ -14,8 +15,8 @@ const Home = () => {
         </div>
         <div className="description-container">
           <p className="text-description">
-            Las mejores raquetas para jugar{" "}
-            <span className="text-emphasys">Tennis</span>
+            Las mejores raquetas para jugar
+            <span className="text-emphasis"> Tennis</span>
           </p>
           <Button text="ACERCA DE NOSOTROS" color="white" space="center" width="269px"/>
         </div>
@@ -35,6 +36,9 @@ const Home = () => {
           <Button text="HISTORIA" color="black" space="space-around" width="234px"/>
         </div>
       </SectionTwoContainer>
+      <SectionThreeContainer>
+        <Carousel/>
+      </SectionThreeContainer>
     </>
   );
 };

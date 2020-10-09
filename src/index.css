@@ -1,5 +1,7 @@
 html, .root {
   width: 100vw;
+  margin: 0;
+  overflow-x:hidden;
 }
 body {
   width: 100vw;
@@ -9,6 +11,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x:hidden;
  
 }
 
@@ -24,6 +27,10 @@ p {
 .column {
   display: flex;
   flex-direction: column;
+}
+.row {
+  display: flex;
+  flex-direction: row;
 }
 
 @font-face {

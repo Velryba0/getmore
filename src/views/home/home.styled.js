@@ -36,7 +36,7 @@ export const SectionOneContainer = styled("section")`
       font-size: 53px;
       color: white;
 
-      .text-emphasys {
+      .text-emphasis {
         font-family: "Helvetica Neue Bold";
         color: #cbe346;
       }
@@ -48,6 +48,7 @@ export const SectionTwoContainer = styled("section")`
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100vw;
   height: 392px;
   background-color: #f3f4f8;
 
@@ -98,6 +99,18 @@ export const SectionTwoContainer = styled("section")`
     width: 234px;
     height: 200px;
     display: flex;
-    justify-content: flex-end
+    justify-content: flex-end;
+  }
+`;
+
+export const SectionThreeContainer = styled("section")`
+  display: flex;
+  flex-direction: row;
+  width: 100vW;
+  height: 468px;
+
+  .controls-setion {
+    display: flex;
+    flex-direction: column;
   }
 `;
