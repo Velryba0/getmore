@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/getmore/static/css/main.c5450fa6.chunk.css",
+    "main.js": "/getmore/static/js/main.5daadbd8.chunk.js",
+    "main.js.map": "/getmore/static/js/main.5daadbd8.chunk.js.map",
+    "runtime-main.js": "/getmore/static/js/runtime-main.b983ba5b.js",
+    "runtime-main.js.map": "/getmore/static/js/runtime-main.b983ba5b.js.map",
+    "static/js/2.3ed9e9bc.chunk.js": "/getmore/static/js/2.3ed9e9bc.chunk.js",
+    "static/js/2.3ed9e9bc.chunk.js.map": "/getmore/static/js/2.3ed9e9bc.chunk.js.map",
+    "index.html": "/getmore/index.html",
+    "precache-manifest.1e1ea184ec812354280f7ccc4970be5d.js": "/getmore/precache-manifest.1e1ea184ec812354280f7ccc4970be5d.js",
+    "service-worker.js": "/getmore/service-worker.js",
+    "static/css/main.c5450fa6.chunk.css.map": "/getmore/static/css/main.c5450fa6.chunk.css.map",
+    "static/js/2.3ed9e9bc.chunk.js.LICENSE.txt": "/getmore/static/js/2.3ed9e9bc.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/getmore/static/media/HelveticaNeueLt.bb5671ed.ttf",
+    "static/media/bg-section-four.png": "/getmore/static/media/bg-section-four.ce546fef.png",
+    "static/media/carousel-controls.png": "/getmore/static/media/carousel-controls.27c3d0b9.png",
+    "static/media/group.png": "/getmore/static/media/group.dade1fd8.png",
+    "static/media/racket.png": "/getmore/static/media/racket.5f5a5c14.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b983ba5b.js",
+    "static/js/2.3ed9e9bc.chunk.js",
+    "static/css/main.c5450fa6.chunk.css",
+    "static/js/main.5daadbd8.chunk.js"
+  ]
+}
