@@ -4,14 +4,11 @@ import LogoHome from '../../assets/img/logo.png';
 import Carousel from '../../components/carousel/carousel';
 import Button from '../../common/button/button';
 
-import Footer from '../../common/footer/footer';
-
 import { SectionOneContainer, SectionTwoContainer, SectionThreeContainer, SectionFourContainer } from './home.styled';
 const Home = () => {
   return (
     <>
       <SectionOneContainer>
-        <div>Header</div>
         <div className="logo-container">
           <img className="logo" src={LogoHome} alt="Logo" />
         </div>
@@ -42,7 +39,6 @@ const Home = () => {
         <Carousel/>
       </SectionThreeContainer>
       <SectionFourContainer />
-      <Footer />
     </>
   );
 };
