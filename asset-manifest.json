@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/getmore/static/css/main.c5450fa6.chunk.css",
-    "main.js": "/getmore/static/js/main.5daadbd8.chunk.js",
-    "main.js.map": "/getmore/static/js/main.5daadbd8.chunk.js.map",
-    "runtime-main.js": "/getmore/static/js/runtime-main.b983ba5b.js",
-    "runtime-main.js.map": "/getmore/static/js/runtime-main.b983ba5b.js.map",
-    "static/js/2.3ed9e9bc.chunk.js": "/getmore/static/js/2.3ed9e9bc.chunk.js",
-    "static/js/2.3ed9e9bc.chunk.js.map": "/getmore/static/js/2.3ed9e9bc.chunk.js.map",
-    "index.html": "/getmore/index.html",
-    "precache-manifest.1e1ea184ec812354280f7ccc4970be5d.js": "/getmore/precache-manifest.1e1ea184ec812354280f7ccc4970be5d.js",
-    "service-worker.js": "/getmore/service-worker.js",
-    "static/css/main.c5450fa6.chunk.css.map": "/getmore/static/css/main.c5450fa6.chunk.css.map",
-    "static/js/2.3ed9e9bc.chunk.js.LICENSE.txt": "/getmore/static/js/2.3ed9e9bc.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/getmore/static/media/HelveticaNeueLt.bb5671ed.ttf",
-    "static/media/bg-section-four.png": "/getmore/static/media/bg-section-four.ce546fef.png",
-    "static/media/carousel-controls.png": "/getmore/static/media/carousel-controls.27c3d0b9.png",
-    "static/media/group.png": "/getmore/static/media/group.dade1fd8.png",
-    "static/media/racket.png": "/getmore/static/media/racket.5f5a5c14.png"
+    "main.css": "/Velryba0/getmore/static/css/main.2034ce9e.chunk.css",
+    "main.js": "/Velryba0/getmore/static/js/main.a26f4b5a.chunk.js",
+    "main.js.map": "/Velryba0/getmore/static/js/main.a26f4b5a.chunk.js.map",
+    "runtime-main.js": "/Velryba0/getmore/static/js/runtime-main.357229c9.js",
+    "runtime-main.js.map": "/Velryba0/getmore/static/js/runtime-main.357229c9.js.map",
+    "static/js/2.4e929a29.chunk.js": "/Velryba0/getmore/static/js/2.4e929a29.chunk.js",
+    "static/js/2.4e929a29.chunk.js.map": "/Velryba0/getmore/static/js/2.4e929a29.chunk.js.map",
+    "index.html": "/Velryba0/getmore/index.html",
+    "precache-manifest.66e8c34c99510c213e661cfa46cbf1a6.js": "/Velryba0/getmore/precache-manifest.66e8c34c99510c213e661cfa46cbf1a6.js",
+    "service-worker.js": "/Velryba0/getmore/service-worker.js",
+    "static/css/main.2034ce9e.chunk.css.map": "/Velryba0/getmore/static/css/main.2034ce9e.chunk.css.map",
+    "static/js/2.4e929a29.chunk.js.LICENSE.txt": "/Velryba0/getmore/static/js/2.4e929a29.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/Velryba0/getmore/static/media/HelveticaNeueLt.bb5671ed.ttf",
+    "static/media/bg-section-four.png": "/Velryba0/getmore/static/media/bg-section-four.ce546fef.png",
+    "static/media/carousel-controls.png": "/Velryba0/getmore/static/media/carousel-controls.27c3d0b9.png",
+    "static/media/group.png": "/Velryba0/getmore/static/media/group.dade1fd8.png",
+    "static/media/racket.png": "/Velryba0/getmore/static/media/racket.5f5a5c14.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.b983ba5b.js",
-    "static/js/2.3ed9e9bc.chunk.js",
-    "static/css/main.c5450fa6.chunk.css",
-    "static/js/main.5daadbd8.chunk.js"
+    "static/js/runtime-main.357229c9.js",
+    "static/js/2.4e929a29.chunk.js",
+    "static/css/main.2034ce9e.chunk.css",
+    "static/js/main.a26f4b5a.chunk.js"
   ]
 }
