@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import backgroundImageSectionOne from "../../assets/img/group.png";
+import bgImageSectionFour from "../../assets/img/bg-section-four.png";
 
 export const SectionOneContainer = styled("section")`
   display: flex;
@@ -106,7 +107,7 @@ export const SectionTwoContainer = styled("section")`
 export const SectionThreeContainer = styled("section")`
   display: flex;
   flex-direction: row;
-  width: 100vW;
+  width: 100vw;
   height: 468px;
 
   .controls-setion {
@@ -114,3 +115,10 @@ export const SectionThreeContainer = styled("section")`
     flex-direction: column;
   }
 `;
+
+export const SectionFourContainer = styled("section")`
+  width: 100vw;
+  height: 586px;
+  background: url(${bgImageSectionFour});
+`;
+
