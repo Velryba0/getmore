@@ -104,7 +104,7 @@ export const CarouselContainer = styled("div")`
       .controls-title {
         width: 259px;
         height: 151px;
-        margin: 38px 71px 0 66px;
+        margin: 38px 0 0 66px;
         font-size: 50px;
         line-height: 64px;
         letter-spacing: 1px;
@@ -458,12 +458,12 @@ export const ImageCarouselContainer = styled("div")`
     align-items: center;
     overflow: hidden;
     margin-top: 36px;
-    width: 100vw;
+    width: 375px;
 
     .image-card {
       width: 288px;
       height: 344px;
-      margin-left: 9px;
+      margin-right: 21px;
       position: relative;
       left: 30px;
       transform: ${({ translatePosX }) => css`
