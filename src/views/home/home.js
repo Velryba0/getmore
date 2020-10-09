@@ -4,7 +4,9 @@ import LogoHome from '../../assets/img/logo.png';
 import Carousel from '../../components/carousel/carousel';
 import Button from '../../common/button/button';
 
-import { SectionOneContainer, SectionTwoContainer, SectionThreeContainer } from './home.styled';
+import Footer from '../../common/footer/footer';
+
+import { SectionOneContainer, SectionTwoContainer, SectionThreeContainer, SectionFourContainer } from './home.styled';
 const Home = () => {
   return (
     <>
@@ -39,6 +41,8 @@ const Home = () => {
       <SectionThreeContainer>
         <Carousel/>
       </SectionThreeContainer>
+      <SectionFourContainer />
+      <Footer />
     </>
   );
 };
