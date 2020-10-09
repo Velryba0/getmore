@@ -7,7 +7,8 @@ export const CarouselContainer = styled("div")`
     width: 100vw;
     height: 468px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    overflow: hidden;
 
     .controls-section {
       width: 100%;
@@ -51,6 +52,7 @@ export const CarouselContainer = styled("div")`
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow: hidden;
     .controls-section {
       width: 530px;
       height: 468px;
@@ -94,6 +96,7 @@ export const CarouselContainer = styled("div")`
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow: hidden;
     .controls-section {
       width: 100vw;
       height: 468px;
@@ -376,16 +379,17 @@ export const ImageCarouselContainer = styled("div")`
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    overflow: hidden;
+    transform: ${({ translatePosX }) => css`
+    translate(${translatePosX}px);
+    `};
+    z-index: -55555;
+    transition: all 1s ease-in-out;
 
     .image-card {
       width: 288px;
       height: 344px;
       margin-left: 53px;
       position: relative;
-      transform: ${({ translatePosX }) => css`
-        translate(${translatePosX}px);
-    `};
 
       .carousel-image {
         width: 288px;
@@ -414,9 +418,13 @@ export const ImageCarouselContainer = styled("div")`
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    overflow: hidden;
     margin-top: 36px;
     width: 100vw;
+    transform: ${({ translatePosX }) => css`
+        translate(${translatePosX}px);
+    `};
+    z-index: -55555;
+    transition: all 1s ease-in-out;
 
     .image-card {
       width: 288px;
@@ -424,9 +432,6 @@ export const ImageCarouselContainer = styled("div")`
       margin-left: 53px;
       position: relative;
       left: 30px;
-      transform: ${({ translatePosX }) => css`
-        translate(${translatePosX}px);
-    `};
 
       .carousel-image {
         width: 288px;
@@ -456,9 +461,13 @@ export const ImageCarouselContainer = styled("div")`
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    overflow: hidden;
     margin-top: 36px;
     width: 375px;
+    transform: ${({ translatePosX }) => css`
+        translate(${translatePosX}px);
+    `};
+    z-index: -55555;
+    transition: all 1s ease-in-out;
 
     .image-card {
       width: 288px;
@@ -466,9 +475,6 @@ export const ImageCarouselContainer = styled("div")`
       margin-right: 21px;
       position: relative;
       left: 30px;
-      transform: ${({ translatePosX }) => css`
-        translate(${translatePosX}px);
-    `};
 
       .carousel-image {
         width: 288px;
